@@ -64,7 +64,7 @@
   // STM32F401 only has timers 1-5 & 9-11 with timers 4 & 5 usually assigned to TIMER_SERVO and TIMER_TONE
 
   #ifndef STEP_TIMER
-    #define STEP_TIMER 9
+    #define STEP_TIMER 6 // 9 https://github.com/MarlinFirmware/Marlin/issues/16604
   #endif
 
   #ifndef TEMP_TIMER
